@@ -1,0 +1,13 @@
+<h2>Welcome, <%=@user.get_username%></h2>
+<br/>
+Name: <%=@user.get_name%><br/>
+Address: <%=@user.get_address%><br/>
+City: <%=@user.get_city%><br/>
+State: <%=@user.get_state%><br/>
+Zipcode: <%=@user.get_zipcode%><br/>
+Country: <%=@user.get_country%><br/>
+Email: <%=@user.get_email%><br/>
+Phone: <%=@user.get_phone%>
+<form action="/welcome/index">
+  <input type="submit" name="logout" value="Logout">
+</form>

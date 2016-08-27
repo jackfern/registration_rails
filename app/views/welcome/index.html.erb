@@ -1,0 +1,13 @@
+<h2>Login</h2>
+<form action="/user/get_info" method="post">
+  <input type="text" name="username" placeholder="Enter username">
+  <br/>
+  <input type="text" name="password" placeholder="Enter password">
+  <br/>
+  <input type="submit" value="Login">
+</form>
+<h2>New user?</h2>
+<p>If you don't have a username or password, please click the button to sign up.</p>
+<form action="/registration/redirect_to_registration">
+  <input type="submit" name="signup" value="Signup">
+</form>
